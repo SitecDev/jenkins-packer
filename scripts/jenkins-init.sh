@@ -39,16 +39,9 @@ rm -f get-pip.py
 pip install awscli
 
 # install terraform
-<<<<<<< HEAD
-TERRAFORM_VERSION="0.11.7"
-wget -q https://releases.hashicorp.com/terraform/0.11.7/terraform_0.11.7_linux_amd64.zip \
-&& unzip -o terraform_0.11.7_linux_amd64.zip -d /usr/local/bin \
-&& rm terraform_0.11.7_linux_amd64.zip
-=======
 wget -q https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip \
 && unzip -o terraform_${TERRAFORM_VERSION}_linux_amd64.zip -d /usr/local/bin \
 && rm terraform_${TERRAFORM_VERSION}_linux_amd64.zip
->>>>>>> 24083ff04a77c15d4effcb8f1ab001f55c8b6a26
 
 # install packer
 cd /usr/local/bin

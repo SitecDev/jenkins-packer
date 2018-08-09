@@ -8,7 +8,7 @@ echo 'variable "APP_INSTANCE_AMI" { default = "'${AMI_ID}'" }' > amivar.tf
 aws s3 cp amivar.tf s3://terraform-stat-a2b621f/amivar.tf
 
 
-https://github.com/SitecDev/packer-aux
+https://github.com/wardviaene/terraform-course
 
 cd jenkins-packer-demo
 
